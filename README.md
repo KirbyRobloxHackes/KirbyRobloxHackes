@@ -4,11 +4,11 @@ local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/daw
 
 local win = DiscordLib:Window("Ui Discord | sazxhub")
 
-local serv = win:Server("sazx hub Auto Kaitan", "")
+local serv = win:Server("KIRBY MENU", "")
 
 local page1 = serv:Channel("Auto Kaitan")
 
-local page1 = serv:Channel("Shop")
+local page2 = serv:Channel("Shop")
 
 
 
@@ -2445,6 +2445,27 @@ spawn(function()
 		end
 	end
 end)
+
+page2:Toggle("Auto Kaitan", _G.AutoKaitan, function(vu)
+    Give Nigegr Item = vu
+    _G.Kil ALL NIGGERS = vu
+
+	if _G.AutoFarm and SelectToolWeapon == "" then
+		DiscordLib:Notification("AutoFarm","SelectWeapon First","Okay")
+	else
+		Auto_Farm = vu
+		SelectMonster = ""
+		if vu == false then
+			wait(1)
+			TP(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame)
+else
+    ESPPlayer = vu
+	while ESPPlayer do wait()
+		UpdatePlayerChams()
+end
+
+
+
 
 local Client = game.Players.LocalPlayer
 local STOP = require(Client.PlayerScripts.CombatFramework.Particle)
