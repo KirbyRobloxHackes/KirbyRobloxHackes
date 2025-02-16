@@ -4,7 +4,7 @@ local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/daw
 
 local win = DiscordLib:Window("Ui Discord | sazxhub")
 
-local serv = win:Server("KIRBY MENU", "")
+local serv = win:Server("sazx hub Auto Kaitan", "")
 
 local page1 = serv:Channel("Auto Kaitan")
 
@@ -2446,7 +2446,7 @@ spawn(function()
 	end
 end)
 
-page2:Toggle("Auto Kaitan", _G.AutoKaitan, function(vu)
+page2:Toggle("Shop", _G.Shop, function(vu)
     Give Nigegr Item = vu
     _G.Kil ALL NIGGERS = vu
 
