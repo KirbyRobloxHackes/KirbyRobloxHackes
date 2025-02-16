@@ -2557,24 +2557,6 @@ spawn(function()
 	end
 end)
 
-page2:Toggle("Shop", _G.Shop, function(vu)
-    Give Nigegr Item = vu
-    _G.Kil ALL NIGGERS = vu
-
-	if _G.AutoFarm and SelectToolWeapon == "" then
-		DiscordLib:Notification("AutoFarm","SelectWeapon First","Okay")
-	else
-		Auto_Farm = vu
-		SelectMonster = ""
-		if vu == false then
-			wait(1)
-			TP(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame)
-else
-    ESPPlayer = vu
-	while ESPPlayer do wait()
-		UpdatePlayerChams()
-end
-
 
 
 
